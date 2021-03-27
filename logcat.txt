@@ -1,1108 +1,552 @@
-logcat:
-
-03-26 22:45:00.282 6653-6653/? I/SELinux: Function: selinux_android_load_priority [0], There is no sepolicy file.
-
+03-27 16:57:02.623 5746-5746/? I/SELinux: Function: selinux_android_load_priority [0], There is no sepolicy file.
      
-
-03-26 22:45:00.282 6653-6653/? I/SELinux: Function: selinux_android_load_priority [1], There is no sepolicy version file.
-
+03-27 16:57:02.623 5746-5746/? I/SELinux: Function: selinux_android_load_priority [1], There is no sepolicy version file.
      
-
-03-26 22:45:00.282 6653-6653/? I/SELinux: Function: selinux_android_load_priority , priority is 3. priority version is VE=GOOGLE_POLICY
-
+03-27 16:57:02.623 5746-5746/? I/SELinux: Function: selinux_android_load_priority , priority is 3. priority version is VE=GOOGLE_POLICY
      
-
      
-
-03-26 22:45:00.282 6653-6653/? D/dalvikvm: Late-enabling CheckJNI
-
-03-26 22:45:00.322 6653-6653/com.fatih.travelbook D/ActivityThread: handleBindApplication:com.fatih.travelbook
-
-03-26 22:45:00.342 6653-6653/com.fatih.travelbook W/ApplicationPackageManager: getCSCPackageItemText()
-
-03-26 22:45:00.362 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemService, referenced from method androidx.appcompat.app.AppCompatDelegateImpl.mapNightMode
-
-03-26 22:45:00.362 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
-
-03-26 22:45:00.362 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x002f
-
-03-26 22:45:00.372 6653-6653/com.fatih.travelbook D/DisplayManager: DisplayManager()
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onPointerCaptureChanged
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2908: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2910: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onSearchRequested
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2912: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onWindowStartingActionMode
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2916: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method androidx.appcompat.widget.TintTypedArray.getChangingConfigurations
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 859: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method androidx.appcompat.widget.TintTypedArray.getType
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 881: Landroid/content/res/TypedArray;.getType (I)I
-
-03-26 22:45:00.382 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0008
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method androidx.core.content.ContextCompat.createDeviceProtectedStorageContext
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 575: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getCodeCacheDir, referenced from method androidx.core.content.ContextCompat.getCodeCacheDir
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 582: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColor, referenced from method androidx.core.content.ContextCompat.getColor
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 583: Landroid/content/Context;.getColor (I)I
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method androidx.core.content.ContextCompat.getColorStateList
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 584: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getDataDir, referenced from method androidx.core.content.ContextCompat.getDataDir
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 586: Landroid/content/Context;.getDataDir ()Ljava/io/File;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getDrawable, referenced from method androidx.core.content.ContextCompat.getDrawable
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 587: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getMainExecutor, referenced from method androidx.core.content.ContextCompat.getMainExecutor
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 594: Landroid/content/Context;.getMainExecutor ()Ljava/util/concurrent/Executor;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method androidx.core.content.ContextCompat.getNoBackupFilesDir
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 596: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemService, referenced from method androidx.core.content.ContextCompat.getSystemService
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemServiceName, referenced from method androidx.core.content.ContextCompat.getSystemServiceName
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 607: Landroid/content/Context;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method androidx.core.content.ContextCompat.isDeviceProtectedStorage
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 610: Landroid/content/Context;.isDeviceProtectedStorage ()Z
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.startForegroundService, referenced from method androidx.core.content.ContextCompat.startForegroundService
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 626: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
-
-03-26 22:45:00.392 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.WindowInsets', referenced from method androidx.core.view.WindowInsetsCompat.toWindowInsetsCompat
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 514 (Landroid/view/WindowInsets;) in Landroidx/core/view/WindowInsetsCompat;
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0006
-
-03-26 22:45:00.412 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setPrimaryBackground
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0056
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setSplitBackground
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0048
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setStackedBackground
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x005a
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method androidx.appcompat.widget.ActionBarContainer.startActionModeForChild
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3563: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/graphics/Outline;)
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getOutline, referenced from method androidx.appcompat.widget.ActionBarBackgroundDrawable.getOutline
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1313: Landroid/graphics/drawable/Drawable;.getOutline (Landroid/graphics/Outline;)V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0010
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getOutline, referenced from method androidx.appcompat.widget.ActionBarBackgroundDrawable.getOutline
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1313: Landroid/graphics/drawable/Drawable;.getOutline (Landroid/graphics/Outline;)V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x001e
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.addKeyboardNavigationClusters, referenced from method androidx.core.view.ViewCompat.addKeyboardNavigationClusters
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2370: Landroid/view/View;.addKeyboardNavigationClusters (Ljava/util/Collection;I)V
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$2; interface 488 'Landroid/view/View$OnUnhandledKeyEventListener;'
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$2;' failed
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'androidx.core.view.ViewCompat$2', referenced from method androidx.core.view.ViewCompat.addOnUnhandledKeyEventListener
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve new-instance 1776 (Landroidx/core/view/ViewCompat$2;) in Landroidx/core/view/ViewCompat;
-
-03-26 22:45:00.422 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x22 at 0x001b
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.cancelDragAndDrop, referenced from method androidx.core.view.ViewCompat.cancelDragAndDrop
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2379: Landroid/view/View;.cancelDragAndDrop ()V
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchApplyWindowInsets, referenced from method androidx.core.view.ViewCompat.dispatchApplyWindowInsets
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2387: Landroid/view/View;.dispatchApplyWindowInsets (Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000c
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedFling, referenced from method androidx.core.view.ViewCompat.dispatchNestedFling
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2393: Landroid/view/View;.dispatchNestedFling (FFZ)Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedPreFling, referenced from method androidx.core.view.ViewCompat.dispatchNestedPreFling
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2394: Landroid/view/View;.dispatchNestedPreFling (FF)Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedPreScroll, referenced from method androidx.core.view.ViewCompat.dispatchNestedPreScroll
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2395: Landroid/view/View;.dispatchNestedPreScroll (II[I[I)Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedScroll, referenced from method androidx.core.view.ViewCompat.dispatchNestedScroll
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2396: Landroid/view/View;.dispatchNestedScroll (IIII[I)Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x74 at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getBackgroundTintList, referenced from method androidx.core.view.ViewCompat.getBackgroundTintList
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2415: Landroid/view/View;.getBackgroundTintList ()Landroid/content/res/ColorStateList;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getBackgroundTintMode, referenced from method androidx.core.view.ViewCompat.getBackgroundTintMode
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2416: Landroid/view/View;.getBackgroundTintMode ()Landroid/graphics/PorterDuff$Mode;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getElevation, referenced from method androidx.core.view.ViewCompat.getElevation
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2425: Landroid/view/View;.getElevation ()F
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getImportantForAutofill, referenced from method androidx.core.view.ViewCompat.getImportantForAutofill
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2432: Landroid/view/View;.getImportantForAutofill ()I
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getNextClusterForwardId, referenced from method androidx.core.view.ViewCompat.getNextClusterForwardId
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2450: Landroid/view/View;.getNextClusterForwardId ()I
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getScrollIndicators, referenced from method androidx.core.view.ViewCompat.getScrollIndicators
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2472: Landroid/view/View;.getScrollIndicators ()I
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getSystemGestureExclusionRects, referenced from method androidx.core.view.ViewCompat.getSystemGestureExclusionRects
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2475: Landroid/view/View;.getSystemGestureExclusionRects ()Ljava/util/List;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getTransitionName, referenced from method androidx.core.view.ViewCompat.getTransitionName
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2480: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getTranslationZ, referenced from method androidx.core.view.ViewCompat.getTranslationZ
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2483: Landroid/view/View;.getTranslationZ ()F
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getZ, referenced from method androidx.core.view.ViewCompat.getZ
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2494: Landroid/view/View;.getZ ()F
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.hasExplicitFocusable, referenced from method androidx.core.view.ViewCompat.hasExplicitFocusable
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2495: Landroid/view/View;.hasExplicitFocusable ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.hasNestedScrollingParent, referenced from method androidx.core.view.ViewCompat.hasNestedScrollingParent
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2498: Landroid/view/View;.hasNestedScrollingParent ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isFocusedByDefault, referenced from method androidx.core.view.ViewCompat.isFocusedByDefault
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2510: Landroid/view/View;.isFocusedByDefault ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isImportantForAutofill, referenced from method androidx.core.view.ViewCompat.isImportantForAutofill
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2512: Landroid/view/View;.isImportantForAutofill ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isKeyboardNavigationCluster, referenced from method androidx.core.view.ViewCompat.isKeyboardNavigationCluster
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2515: Landroid/view/View;.isKeyboardNavigationCluster ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isNestedScrollingEnabled, referenced from method androidx.core.view.ViewCompat.isNestedScrollingEnabled
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2520: Landroid/view/View;.isNestedScrollingEnabled ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.keyboardNavigationClusterSearch, referenced from method androidx.core.view.ViewCompat.keyboardNavigationClusterSearch
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2528: Landroid/view/View;.keyboardNavigationClusterSearch (Landroid/view/View;I)Landroid/view/View;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.onApplyWindowInsets, referenced from method androidx.core.view.ViewCompat.onApplyWindowInsets
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2533: Landroid/view/View;.onApplyWindowInsets (Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000c
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.View$OnUnhandledKeyEventListener', referenced from method androidx.core.view.ViewCompat.removeOnUnhandledKeyEventListener
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 488 (Landroid/view/View$OnUnhandledKeyEventListener;) in Landroidx/core/view/ViewCompat;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0015
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.requestApplyInsets, referenced from method androidx.core.view.ViewCompat.requestApplyInsets
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2566: Landroid/view/View;.requestApplyInsets ()V
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.requireViewById, referenced from method androidx.core.view.ViewCompat.requireViewById
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2572: Landroid/view/View;.requireViewById (I)Landroid/view/View;
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.restoreDefaultFocus, referenced from method androidx.core.view.ViewCompat.restoreDefaultFocus
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2574: Landroid/view/View;.restoreDefaultFocus ()Z
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setAutofillHints, referenced from method androidx.core.view.ViewCompat.setAutofillHints
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2587: Landroid/view/View;.setAutofillHints ([Ljava/lang/String;)V
-
-03-26 22:45:00.432 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setBackgroundTintList, referenced from method androidx.core.view.ViewCompat.setBackgroundTintList
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2591: Landroid/view/View;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setBackgroundTintMode, referenced from method androidx.core.view.ViewCompat.setBackgroundTintMode
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2592: Landroid/view/View;.setBackgroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setElevation, referenced from method androidx.core.view.ViewCompat.setElevation
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2596: Landroid/view/View;.setElevation (F)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setFocusedByDefault, referenced from method androidx.core.view.ViewCompat.setFocusedByDefault
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2600: Landroid/view/View;.setFocusedByDefault (Z)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setImportantForAutofill, referenced from method androidx.core.view.ViewCompat.setImportantForAutofill
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2604: Landroid/view/View;.setImportantForAutofill (I)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setKeyboardNavigationCluster, referenced from method androidx.core.view.ViewCompat.setKeyboardNavigationCluster
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2605: Landroid/view/View;.setKeyboardNavigationCluster (Z)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setNestedScrollingEnabled, referenced from method androidx.core.view.ViewCompat.setNestedScrollingEnabled
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2615: Landroid/view/View;.setNestedScrollingEnabled (Z)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setNextClusterForwardId, referenced from method androidx.core.view.ViewCompat.setNextClusterForwardId
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2616: Landroid/view/View;.setNextClusterForwardId (I)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2617: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0009
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$1; interface 478 'Landroid/view/View$OnApplyWindowInsetsListener;'
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$1;' failed
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'androidx.core.view.ViewCompat$1', referenced from method androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve new-instance 1775 (Landroidx/core/view/ViewCompat$1;) in Landroidx/core/view/ViewCompat;
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x22 at 0x000d
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setPointerIcon, referenced from method androidx.core.view.ViewCompat.setPointerIcon
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2629: Landroid/view/View;.setPointerIcon (Landroid/view/PointerIcon;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0010
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setScrollIndicators, referenced from method androidx.core.view.ViewCompat.setScrollIndicators
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2638: Landroid/view/View;.setScrollIndicators (I)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setScrollIndicators, referenced from method androidx.core.view.ViewCompat.setScrollIndicators
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2639: Landroid/view/View;.setScrollIndicators (II)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setSystemGestureExclusionRects, referenced from method androidx.core.view.ViewCompat.setSystemGestureExclusionRects
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2644: Landroid/view/View;.setSystemGestureExclusionRects (Ljava/util/List;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method androidx.core.view.ViewCompat.setTooltipText
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2647: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTransitionName, referenced from method androidx.core.view.ViewCompat.setTransitionName
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2649: Landroid/view/View;.setTransitionName (Ljava/lang/String;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTranslationZ, referenced from method androidx.core.view.ViewCompat.setTranslationZ
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2653: Landroid/view/View;.setTranslationZ (F)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setZ, referenced from method androidx.core.view.ViewCompat.setZ
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2658: Landroid/view/View;.setZ (F)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.startDragAndDrop, referenced from method androidx.core.view.ViewCompat.startDragAndDrop
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2661: Landroid/view/View;.startDragAndDrop (Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.startNestedScroll, referenced from method androidx.core.view.ViewCompat.startNestedScroll
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2662: Landroid/view/View;.startNestedScroll (I)Z
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.stopNestedScroll, referenced from method androidx.core.view.ViewCompat.stopNestedScroll
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2663: Landroid/view/View;.stopNestedScroll ()V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.updateDragShadow, referenced from method androidx.core.view.ViewCompat.updateDragShadow
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2666: Landroid/view/View;.updateDragShadow (Landroid/view/View$DragShadowBuilder;)V
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$2; interface 488 'Landroid/view/View$OnUnhandledKeyEventListener;'
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$2;' failed
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: unable to opt direct call 0x3a78 at 0x1d in Landroidx/core/view/ViewCompat;.addOnUnhandledKeyEventListener
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$1; interface 478 'Landroid/view/View$OnApplyWindowInsetsListener;'
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$1;' failed
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: unable to opt direct call 0x3a76 at 0x0f in Landroidx/core/view/ViewCompat;.setOnApplyWindowInsetsListener
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method androidx.appcompat.content.res.AppCompatResources.getColorStateList
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 584: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
-
-03-26 22:45:00.442 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method androidx.appcompat.widget.ResourcesWrapper.getDrawable
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 822: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method androidx.appcompat.widget.ResourcesWrapper.getDrawableForDensity
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 824: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
-
-03-26 22:45:00.452 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
-
-03-26 22:45:00.462 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method androidx.appcompat.widget.AppCompatImageHelper.hasOverlappingRendering
-
-03-26 22:45:00.462 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve instanceof 230 (Landroid/graphics/drawable/RippleDrawable;) in Landroidx/appcompat/widget/AppCompatImageHelper;
-
-03-26 22:45:00.462 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x20 at 0x000c
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeMaxTextSize
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3975: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeMinTextSize
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3976: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeStepGranularity
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3977: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3978: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeTextType
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3979: Landroid/widget/TextView;.getAutoSizeTextType ()I
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0005
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getTextClassifier, referenced from method androidx.appcompat.widget.AppCompatTextView.getTextClassifier
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4020: Landroid/widget/TextView;.getTextClassifier ()Landroid/view/textclassifier/TextClassifier;
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0010
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4047: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4048: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4049: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
-
-03-26 22:45:00.472 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFirstBaselineToTopHeight, referenced from method androidx.appcompat.widget.AppCompatTextView.setFirstBaselineToTopHeight
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4065: Landroid/widget/TextView;.setFirstBaselineToTopHeight (I)V
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0006
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setLastBaselineToBottomHeight, referenced from method androidx.appcompat.widget.AppCompatTextView.setLastBaselineToBottomHeight
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4072: Landroid/widget/TextView;.setLastBaselineToBottomHeight (I)V
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0006
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setTextClassifier, referenced from method androidx.appcompat.widget.AppCompatTextView.setTextClassifier
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4094: Landroid/widget/TextView;.setTextClassifier (Landroid/view/textclassifier/TextClassifier;)V
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x000f
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper.updateTypefaceAndStyle
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x00a8
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper.updateTypefaceAndStyle
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x00dd
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFontVariationSettings, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4067: Landroid/widget/TextView;.setFontVariationSettings (Ljava/lang/String;)Z
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0228
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.os.LocaleList.forLanguageTags, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1615: Landroid/os/LocaleList;.forLanguageTags (Ljava/lang/String;)Landroid/os/LocaleList;
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0235
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method java.util.Locale.forLanguageTag, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 36767: Ljava/util/Locale;.forLanguageTag (Ljava/lang/String;)Ljava/util/Locale;
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0250
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3977: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0273
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFontVariationSettings, referenced from method androidx.appcompat.widget.AppCompatTextHelper.onSetTextAppearance
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4067: Landroid/widget/TextView;.setFontVariationSettings (Ljava/lang/String;)Z
-
-03-26 22:45:00.482 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0065
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.text.StaticLayout$Builder.obtain, referenced from method androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1933: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0008
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.textclassifier.TextClassificationManager', referenced from method androidx.appcompat.widget.AppCompatTextClassifierHelper.getTextClassifier
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve const-class 555 (Landroid/view/textclassifier/TextClassificationManager;) in Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1c at 0x000a
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0132 at 0x19 in Landroidx/appcompat/widget/AppCompatTextClassifierHelper;.getTextClassifier
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper$1.onFontRetrieved
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
-
-03-26 22:45:00.492 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0014
-
-03-26 22:45:00.502 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewGroup.<init>, referenced from method androidx.constraintlayout.widget.ConstraintLayout.<init>
-
-03-26 22:45:00.502 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve direct method 2703: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-03-26 22:45:00.502 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x70 at 0x0000
-
-03-26 22:45:00.552 6653-6653/com.fatih.travelbook I/Adreno-EGL: <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
-
+03-27 16:57:02.623 5746-5746/? D/dalvikvm: Late-enabling CheckJNI
+03-27 16:57:02.663 5746-5746/com.fatih.travelbook D/ActivityThread: handleBindApplication:com.fatih.travelbook
+03-27 16:57:02.683 5746-5746/com.fatih.travelbook W/ApplicationPackageManager: getCSCPackageItemText()
+03-27 16:57:02.693 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemService, referenced from method androidx.appcompat.app.AppCompatDelegateImpl.mapNightMode
+03-27 16:57:02.693 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+03-27 16:57:02.693 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x002f
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/DisplayManager: DisplayManager()
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onPointerCaptureChanged
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2908: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2910: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onSearchRequested
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2912: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method androidx.appcompat.view.WindowCallbackWrapper.onWindowStartingActionMode
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2916: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method androidx.appcompat.widget.TintTypedArray.getChangingConfigurations
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 859: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method androidx.appcompat.widget.TintTypedArray.getType
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 881: Landroid/content/res/TypedArray;.getType (I)I
+03-27 16:57:02.713 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0008
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method androidx.core.content.ContextCompat.createDeviceProtectedStorageContext
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 575: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getCodeCacheDir, referenced from method androidx.core.content.ContextCompat.getCodeCacheDir
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 582: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColor, referenced from method androidx.core.content.ContextCompat.getColor
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 583: Landroid/content/Context;.getColor (I)I
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method androidx.core.content.ContextCompat.getColorStateList
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 584: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getDataDir, referenced from method androidx.core.content.ContextCompat.getDataDir
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 586: Landroid/content/Context;.getDataDir ()Ljava/io/File;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getDrawable, referenced from method androidx.core.content.ContextCompat.getDrawable
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 587: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getMainExecutor, referenced from method androidx.core.content.ContextCompat.getMainExecutor
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 594: Landroid/content/Context;.getMainExecutor ()Ljava/util/concurrent/Executor;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method androidx.core.content.ContextCompat.getNoBackupFilesDir
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 596: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemService, referenced from method androidx.core.content.ContextCompat.getSystemService
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getSystemService (Ljava/lang/Class;)Ljava/lang/Object;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getSystemServiceName, referenced from method androidx.core.content.ContextCompat.getSystemServiceName
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 607: Landroid/content/Context;.getSystemServiceName (Ljava/lang/Class;)Ljava/lang/String;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method androidx.core.content.ContextCompat.isDeviceProtectedStorage
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 610: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.startForegroundService, referenced from method androidx.core.content.ContextCompat.startForegroundService
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 626: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
+03-27 16:57:02.723 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.WindowInsets', referenced from method androidx.core.view.WindowInsetsCompat.toWindowInsetsCompat
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 514 (Landroid/view/WindowInsets;) in Landroidx/core/view/WindowInsetsCompat;
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0006
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setPrimaryBackground
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0056
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setSplitBackground
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0048
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.ActionBarContainer.invalidateOutline, referenced from method androidx.appcompat.widget.ActionBarContainer.setStackedBackground
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 6508: Landroidx/appcompat/widget/ActionBarContainer;.invalidateOutline ()V
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x005a
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method androidx.appcompat.widget.ActionBarContainer.startActionModeForChild
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3563: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+03-27 16:57:02.743 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/graphics/Outline;)
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getOutline, referenced from method androidx.appcompat.widget.ActionBarBackgroundDrawable.getOutline
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1313: Landroid/graphics/drawable/Drawable;.getOutline (Landroid/graphics/Outline;)V
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0010
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getOutline, referenced from method androidx.appcompat.widget.ActionBarBackgroundDrawable.getOutline
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1313: Landroid/graphics/drawable/Drawable;.getOutline (Landroid/graphics/Outline;)V
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x001e
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.addKeyboardNavigationClusters, referenced from method androidx.core.view.ViewCompat.addKeyboardNavigationClusters
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2370: Landroid/view/View;.addKeyboardNavigationClusters (Ljava/util/Collection;I)V
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$2; interface 488 'Landroid/view/View$OnUnhandledKeyEventListener;'
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$2;' failed
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'androidx.core.view.ViewCompat$2', referenced from method androidx.core.view.ViewCompat.addOnUnhandledKeyEventListener
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve new-instance 1776 (Landroidx/core/view/ViewCompat$2;) in Landroidx/core/view/ViewCompat;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x22 at 0x001b
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.cancelDragAndDrop, referenced from method androidx.core.view.ViewCompat.cancelDragAndDrop
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2379: Landroid/view/View;.cancelDragAndDrop ()V
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchApplyWindowInsets, referenced from method androidx.core.view.ViewCompat.dispatchApplyWindowInsets
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2387: Landroid/view/View;.dispatchApplyWindowInsets (Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000c
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedFling, referenced from method androidx.core.view.ViewCompat.dispatchNestedFling
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2393: Landroid/view/View;.dispatchNestedFling (FFZ)Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedPreFling, referenced from method androidx.core.view.ViewCompat.dispatchNestedPreFling
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2394: Landroid/view/View;.dispatchNestedPreFling (FF)Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedPreScroll, referenced from method androidx.core.view.ViewCompat.dispatchNestedPreScroll
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2395: Landroid/view/View;.dispatchNestedPreScroll (II[I[I)Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.dispatchNestedScroll, referenced from method androidx.core.view.ViewCompat.dispatchNestedScroll
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2396: Landroid/view/View;.dispatchNestedScroll (IIII[I)Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x74 at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getBackgroundTintList, referenced from method androidx.core.view.ViewCompat.getBackgroundTintList
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2415: Landroid/view/View;.getBackgroundTintList ()Landroid/content/res/ColorStateList;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getBackgroundTintMode, referenced from method androidx.core.view.ViewCompat.getBackgroundTintMode
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2416: Landroid/view/View;.getBackgroundTintMode ()Landroid/graphics/PorterDuff$Mode;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getElevation, referenced from method androidx.core.view.ViewCompat.getElevation
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2425: Landroid/view/View;.getElevation ()F
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getImportantForAutofill, referenced from method androidx.core.view.ViewCompat.getImportantForAutofill
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2432: Landroid/view/View;.getImportantForAutofill ()I
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getNextClusterForwardId, referenced from method androidx.core.view.ViewCompat.getNextClusterForwardId
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2450: Landroid/view/View;.getNextClusterForwardId ()I
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getScrollIndicators, referenced from method androidx.core.view.ViewCompat.getScrollIndicators
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2472: Landroid/view/View;.getScrollIndicators ()I
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getSystemGestureExclusionRects, referenced from method androidx.core.view.ViewCompat.getSystemGestureExclusionRects
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2475: Landroid/view/View;.getSystemGestureExclusionRects ()Ljava/util/List;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getTransitionName, referenced from method androidx.core.view.ViewCompat.getTransitionName
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2480: Landroid/view/View;.getTransitionName ()Ljava/lang/String;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getTranslationZ, referenced from method androidx.core.view.ViewCompat.getTranslationZ
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2483: Landroid/view/View;.getTranslationZ ()F
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.getZ, referenced from method androidx.core.view.ViewCompat.getZ
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2494: Landroid/view/View;.getZ ()F
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.hasExplicitFocusable, referenced from method androidx.core.view.ViewCompat.hasExplicitFocusable
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2495: Landroid/view/View;.hasExplicitFocusable ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.hasNestedScrollingParent, referenced from method androidx.core.view.ViewCompat.hasNestedScrollingParent
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2498: Landroid/view/View;.hasNestedScrollingParent ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isFocusedByDefault, referenced from method androidx.core.view.ViewCompat.isFocusedByDefault
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2510: Landroid/view/View;.isFocusedByDefault ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isImportantForAutofill, referenced from method androidx.core.view.ViewCompat.isImportantForAutofill
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2512: Landroid/view/View;.isImportantForAutofill ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isKeyboardNavigationCluster, referenced from method androidx.core.view.ViewCompat.isKeyboardNavigationCluster
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2515: Landroid/view/View;.isKeyboardNavigationCluster ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.isNestedScrollingEnabled, referenced from method androidx.core.view.ViewCompat.isNestedScrollingEnabled
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2520: Landroid/view/View;.isNestedScrollingEnabled ()Z
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.keyboardNavigationClusterSearch, referenced from method androidx.core.view.ViewCompat.keyboardNavigationClusterSearch
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2528: Landroid/view/View;.keyboardNavigationClusterSearch (Landroid/view/View;I)Landroid/view/View;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/WindowInsets;)
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.onApplyWindowInsets, referenced from method androidx.core.view.ViewCompat.onApplyWindowInsets
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2533: Landroid/view/View;.onApplyWindowInsets (Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
+03-27 16:57:02.753 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000c
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.View$OnUnhandledKeyEventListener', referenced from method androidx.core.view.ViewCompat.removeOnUnhandledKeyEventListener
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 488 (Landroid/view/View$OnUnhandledKeyEventListener;) in Landroidx/core/view/ViewCompat;
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0015
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.requestApplyInsets, referenced from method androidx.core.view.ViewCompat.requestApplyInsets
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2566: Landroid/view/View;.requestApplyInsets ()V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.requireViewById, referenced from method androidx.core.view.ViewCompat.requireViewById
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2572: Landroid/view/View;.requireViewById (I)Landroid/view/View;
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.restoreDefaultFocus, referenced from method androidx.core.view.ViewCompat.restoreDefaultFocus
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2574: Landroid/view/View;.restoreDefaultFocus ()Z
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setAutofillHints, referenced from method androidx.core.view.ViewCompat.setAutofillHints
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2587: Landroid/view/View;.setAutofillHints ([Ljava/lang/String;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setBackgroundTintList, referenced from method androidx.core.view.ViewCompat.setBackgroundTintList
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2591: Landroid/view/View;.setBackgroundTintList (Landroid/content/res/ColorStateList;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setBackgroundTintMode, referenced from method androidx.core.view.ViewCompat.setBackgroundTintMode
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2592: Landroid/view/View;.setBackgroundTintMode (Landroid/graphics/PorterDuff$Mode;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setElevation, referenced from method androidx.core.view.ViewCompat.setElevation
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2596: Landroid/view/View;.setElevation (F)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setFocusedByDefault, referenced from method androidx.core.view.ViewCompat.setFocusedByDefault
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2600: Landroid/view/View;.setFocusedByDefault (Z)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setImportantForAutofill, referenced from method androidx.core.view.ViewCompat.setImportantForAutofill
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2604: Landroid/view/View;.setImportantForAutofill (I)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setKeyboardNavigationCluster, referenced from method androidx.core.view.ViewCompat.setKeyboardNavigationCluster
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2605: Landroid/view/View;.setKeyboardNavigationCluster (Z)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setNestedScrollingEnabled, referenced from method androidx.core.view.ViewCompat.setNestedScrollingEnabled
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2615: Landroid/view/View;.setNestedScrollingEnabled (Z)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setNextClusterForwardId, referenced from method androidx.core.view.ViewCompat.setNextClusterForwardId
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2616: Landroid/view/View;.setNextClusterForwardId (I)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setOnApplyWindowInsetsListener, referenced from method androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2617: Landroid/view/View;.setOnApplyWindowInsetsListener (Landroid/view/View$OnApplyWindowInsetsListener;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0009
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$1; interface 478 'Landroid/view/View$OnApplyWindowInsetsListener;'
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$1;' failed
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'androidx.core.view.ViewCompat$1', referenced from method androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve new-instance 1775 (Landroidx/core/view/ViewCompat$1;) in Landroidx/core/view/ViewCompat;
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x22 at 0x000d
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setPointerIcon, referenced from method androidx.core.view.ViewCompat.setPointerIcon
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2629: Landroid/view/View;.setPointerIcon (Landroid/view/PointerIcon;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0010
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setScrollIndicators, referenced from method androidx.core.view.ViewCompat.setScrollIndicators
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2638: Landroid/view/View;.setScrollIndicators (I)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setScrollIndicators, referenced from method androidx.core.view.ViewCompat.setScrollIndicators
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2639: Landroid/view/View;.setScrollIndicators (II)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setSystemGestureExclusionRects, referenced from method androidx.core.view.ViewCompat.setSystemGestureExclusionRects
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2644: Landroid/view/View;.setSystemGestureExclusionRects (Ljava/util/List;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method androidx.core.view.ViewCompat.setTooltipText
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2647: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTransitionName, referenced from method androidx.core.view.ViewCompat.setTransitionName
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2649: Landroid/view/View;.setTransitionName (Ljava/lang/String;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTranslationZ, referenced from method androidx.core.view.ViewCompat.setTranslationZ
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2653: Landroid/view/View;.setTranslationZ (F)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setZ, referenced from method androidx.core.view.ViewCompat.setZ
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2658: Landroid/view/View;.setZ (F)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.startDragAndDrop, referenced from method androidx.core.view.ViewCompat.startDragAndDrop
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2661: Landroid/view/View;.startDragAndDrop (Landroid/content/ClipData;Landroid/view/View$DragShadowBuilder;Ljava/lang/Object;I)Z
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.startNestedScroll, referenced from method androidx.core.view.ViewCompat.startNestedScroll
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2662: Landroid/view/View;.startNestedScroll (I)Z
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.stopNestedScroll, referenced from method androidx.core.view.ViewCompat.stopNestedScroll
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2663: Landroid/view/View;.stopNestedScroll ()V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.updateDragShadow, referenced from method androidx.core.view.ViewCompat.updateDragShadow
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2666: Landroid/view/View;.updateDragShadow (Landroid/view/View$DragShadowBuilder;)V
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$2; interface 488 'Landroid/view/View$OnUnhandledKeyEventListener;'
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$2;' failed
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: unable to opt direct call 0x3a78 at 0x1d in Landroidx/core/view/ViewCompat;.addOnUnhandledKeyEventListener
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Failed resolving Landroidx/core/view/ViewCompat$1; interface 478 'Landroid/view/View$OnApplyWindowInsetsListener;'
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: Link of class 'Landroidx/core/view/ViewCompat$1;' failed
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: unable to opt direct call 0x3a76 at 0x0f in Landroidx/core/view/ViewCompat;.setOnApplyWindowInsetsListener
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method androidx.appcompat.content.res.AppCompatResources.getColorStateList
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 584: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+03-27 16:57:02.763 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method androidx.appcompat.widget.ResourcesWrapper.getDrawable
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 822: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method androidx.appcompat.widget.ResourcesWrapper.getDrawableForDensity
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 824: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+03-27 16:57:02.773 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+03-27 16:57:02.783 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method androidx.appcompat.widget.AppCompatImageHelper.hasOverlappingRendering
+03-27 16:57:02.783 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve instanceof 230 (Landroid/graphics/drawable/RippleDrawable;) in Landroidx/appcompat/widget/AppCompatImageHelper;
+03-27 16:57:02.783 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x20 at 0x000c
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeMaxTextSize
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3975: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeMinTextSize
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3976: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeStepGranularity
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3977: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3978: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method androidx.appcompat.widget.AppCompatTextView.getAutoSizeTextType
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3979: Landroid/widget/TextView;.getAutoSizeTextType ()I
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0005
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getTextClassifier, referenced from method androidx.appcompat.widget.AppCompatTextView.getTextClassifier
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4020: Landroid/widget/TextView;.getTextClassifier ()Landroid/view/textclassifier/TextClassifier;
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0010
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4047: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4048: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method androidx.appcompat.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4049: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFirstBaselineToTopHeight, referenced from method androidx.appcompat.widget.AppCompatTextView.setFirstBaselineToTopHeight
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4065: Landroid/widget/TextView;.setFirstBaselineToTopHeight (I)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0006
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setLastBaselineToBottomHeight, referenced from method androidx.appcompat.widget.AppCompatTextView.setLastBaselineToBottomHeight
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4072: Landroid/widget/TextView;.setLastBaselineToBottomHeight (I)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0006
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setTextClassifier, referenced from method androidx.appcompat.widget.AppCompatTextView.setTextClassifier
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4094: Landroid/widget/TextView;.setTextClassifier (Landroid/view/textclassifier/TextClassifier;)V
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x000f
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper.updateTypefaceAndStyle
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x00a8
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper.updateTypefaceAndStyle
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+03-27 16:57:02.793 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x00dd
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFontVariationSettings, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4067: Landroid/widget/TextView;.setFontVariationSettings (Ljava/lang/String;)Z
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0228
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.os.LocaleList.forLanguageTags, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1615: Landroid/os/LocaleList;.forLanguageTags (Ljava/lang/String;)Landroid/os/LocaleList;
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0235
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method java.util.Locale.forLanguageTag, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 36767: Ljava/util/Locale;.forLanguageTag (Ljava/lang/String;)Ljava/util/Locale;
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0250
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method androidx.appcompat.widget.AppCompatTextHelper.loadFromAttributes
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3977: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0273
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.TextView.setFontVariationSettings, referenced from method androidx.appcompat.widget.AppCompatTextHelper.onSetTextAppearance
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 4067: Landroid/widget/TextView;.setFontVariationSettings (Ljava/lang/String;)Z
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0065
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.text.StaticLayout$Builder.obtain, referenced from method androidx.appcompat.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1933: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+03-27 16:57:02.803 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0008
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.textclassifier.TextClassificationManager', referenced from method androidx.appcompat.widget.AppCompatTextClassifierHelper.getTextClassifier
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve const-class 555 (Landroid/view/textclassifier/TextClassificationManager;) in Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1c at 0x000a
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/textclassifier/TextClassifier;)
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0132 at 0x19 in Landroidx/appcompat/widget/AppCompatTextClassifierHelper;.getTextClassifier
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.Typeface.create, referenced from method androidx.appcompat.widget.AppCompatTextHelper$1.onFontRetrieved
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static method 1244: Landroid/graphics/Typeface;.create (Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x71 at 0x0014
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewGroup.<init>, referenced from method androidx.constraintlayout.widget.ConstraintLayout.<init>
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve direct method 2703: Landroid/view/ViewGroup;.<init> (Landroid/content/Context;Landroid/util/AttributeSet;II)V
+03-27 16:57:02.813 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x70 at 0x0000
+03-27 16:57:02.873 5746-5746/com.fatih.travelbook I/Adreno-EGL: <qeglDrvAPI_eglInitialize:410>: EGL 1.4 QUALCOMM build:  ()
     OpenGL ES Shader Compiler Version: E031.24.02.07
-
     Build Date: 11/12/14 Wed
-
     Local Branch: 
-
     Remote Branch: 
-
     Local Patches: 
-
     Reconstruct Branch: 
-
-03-26 22:45:00.572 6653-6653/com.fatih.travelbook D/OpenGLRenderer: Enabling debug mode 0
-
-03-26 22:45:00.582 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method androidx.appcompat.widget.TooltipCompat.setTooltipText
-
-03-26 22:45:00.582 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2647: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
-
-03-26 22:45:00.582 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledHorizontalScrollFactor, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledHorizontalScrollFactor
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2672: Landroid/view/ViewConfiguration;.getScaledHorizontalScrollFactor ()F
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledHoverSlop, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledHoverSlop
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2673: Landroid/view/ViewConfiguration;.getScaledHoverSlop ()I
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledVerticalScrollFactor, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledVerticalScrollFactor
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2678: Landroid/view/ViewConfiguration;.getScaledVerticalScrollFactor ()F
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.shouldShowMenuShortcutsWhenKeyboardPresent, referenced from method androidx.core.view.ViewConfigurationCompat.shouldShowMenuShortcutsWhenKeyboardPresent
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2682: Landroid/view/ViewConfiguration;.shouldShowMenuShortcutsWhenKeyboardPresent ()Z
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getAlphabeticModifiers, referenced from method androidx.core.view.MenuItemCompat.getAlphabeticModifiers
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2258: Landroid/view/MenuItem;.getAlphabeticModifiers ()I
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getContentDescription, referenced from method androidx.core.view.MenuItemCompat.getContentDescription
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2259: Landroid/view/MenuItem;.getContentDescription ()Ljava/lang/CharSequence;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getIconTintList, referenced from method androidx.core.view.MenuItemCompat.getIconTintList
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2262: Landroid/view/MenuItem;.getIconTintList ()Landroid/content/res/ColorStateList;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getIconTintMode, referenced from method androidx.core.view.MenuItemCompat.getIconTintMode
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2263: Landroid/view/MenuItem;.getIconTintMode ()Landroid/graphics/PorterDuff$Mode;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getNumericModifiers, referenced from method androidx.core.view.MenuItemCompat.getNumericModifiers
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2266: Landroid/view/MenuItem;.getNumericModifiers ()I
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getTooltipText, referenced from method androidx.core.view.MenuItemCompat.getTooltipText
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2268: Landroid/view/MenuItem;.getTooltipText ()Ljava/lang/CharSequence;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setAlphabeticShortcut, referenced from method androidx.core.view.MenuItemCompat.setAlphabeticShortcut
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2277: Landroid/view/MenuItem;.setAlphabeticShortcut (CI)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setContentDescription, referenced from method androidx.core.view.MenuItemCompat.setContentDescription
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2280: Landroid/view/MenuItem;.setContentDescription (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setIconTintList, referenced from method androidx.core.view.MenuItemCompat.setIconTintList
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2284: Landroid/view/MenuItem;.setIconTintList (Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setIconTintMode, referenced from method androidx.core.view.MenuItemCompat.setIconTintMode
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2285: Landroid/view/MenuItem;.setIconTintMode (Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setNumericShortcut, referenced from method androidx.core.view.MenuItemCompat.setNumericShortcut
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2287: Landroid/view/MenuItem;.setNumericShortcut (CI)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setShortcut, referenced from method androidx.core.view.MenuItemCompat.setShortcut
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2290: Landroid/view/MenuItem;.setShortcut (CCII)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setTooltipText, referenced from method androidx.core.view.MenuItemCompat.setTooltipText
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2293: Landroid/view/MenuItem;.setTooltipText (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
-
-03-26 22:45:00.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.applyTheme, referenced from method androidx.core.graphics.drawable.DrawableCompat.applyTheme
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1288: Landroid/graphics/drawable/Drawable;.applyTheme (Landroid/content/res/Resources$Theme;)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.canApplyTheme, referenced from method androidx.core.graphics.drawable.DrawableCompat.canApplyTheme
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1289: Landroid/graphics/drawable/Drawable;.canApplyTheme ()Z
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getColorFilter, referenced from method androidx.core.graphics.drawable.DrawableCompat.getColorFilter
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1300: Landroid/graphics/drawable/Drawable;.getColorFilter ()Landroid/graphics/ColorFilter;
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.inflate, referenced from method androidx.core.graphics.drawable.DrawableCompat.inflate
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1318: Landroid/graphics/drawable/Drawable;.inflate (Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setHotspot, referenced from method androidx.core.graphics.drawable.DrawableCompat.setHotspot
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1340: Landroid/graphics/drawable/Drawable;.setHotspot (FF)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setHotspotBounds, referenced from method androidx.core.graphics.drawable.DrawableCompat.setHotspotBounds
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1341: Landroid/graphics/drawable/Drawable;.setHotspotBounds (IIII)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setLayoutDirection, referenced from method androidx.core.graphics.drawable.DrawableCompat.setLayoutDirection
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1342: Landroid/graphics/drawable/Drawable;.setLayoutDirection (I)Z
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTint, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTint
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1345: Landroid/graphics/drawable/Drawable;.setTint (I)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTintList, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTintList
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1346: Landroid/graphics/drawable/Drawable;.setTintList (Landroid/content/res/ColorStateList;)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTintMode, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTintMode
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1347: Landroid/graphics/drawable/Drawable;.setTintMode (Landroid/graphics/PorterDuff$Mode;)V
-
-03-26 22:45:00.602 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:00.642 6653-6653/com.fatih.travelbook I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@4206c160 time:1216772
-
-03-26 22:45:01.542 6653-6653/com.fatih.travelbook W/dalvikvm: method Landroidx/appcompat/widget/DropDownListView;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
-
-03-26 22:45:01.542 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setEnterTransition, referenced from method androidx.appcompat.widget.MenuPopupWindow.setEnterTransition
-
-03-26 22:45:01.542 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3824: Landroid/widget/PopupWindow;.setEnterTransition (Landroid/transition/Transition;)V
-
-03-26 22:45:01.542 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000b
-
-03-26 22:45:01.542 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setExitTransition, referenced from method androidx.appcompat.widget.MenuPopupWindow.setExitTransition
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3826: Landroid/widget/PopupWindow;.setExitTransition (Landroid/transition/Transition;)V
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000b
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setIsClippedToScreen, referenced from method androidx.appcompat.widget.ListPopupWindow.setPopupClipToScreenEnabled
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3830: Landroid/widget/PopupWindow;.setIsClippedToScreen (Z)V
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0025
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setEpicenterBounds, referenced from method androidx.appcompat.widget.ListPopupWindow.show
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3825: Landroid/widget/PopupWindow;.setEpicenterBounds (Landroid/graphics/Rect;)V
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0107
-
-03-26 22:45:01.552 6653-6653/com.fatih.travelbook I/ListPopupWindow: Could not find method setEpicenterBounds(Rect) on PopupWindow. Oh well.
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.DropDownListView.drawableHotspotChanged, referenced from method androidx.appcompat.widget.DropDownListView.setPressedItem
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 7806: Landroidx/appcompat/widget/DropDownListView;.drawableHotspotChanged (FF)V
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0009
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.drawableHotspotChanged, referenced from method androidx.appcompat.widget.DropDownListView.setPressedItem
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2402: Landroid/view/View;.drawableHotspotChanged (FF)V
-
-03-26 22:45:01.582 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0048
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.getOverlapAnchor, referenced from method androidx.core.widget.PopupWindowCompat.getOverlapAnchor
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3815: Landroid/widget/PopupWindow;.getOverlapAnchor ()Z
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setOverlapAnchor, referenced from method androidx.core.widget.PopupWindowCompat.setOverlapAnchor
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3833: Landroid/widget/PopupWindow;.setOverlapAnchor (Z)V
-
-03-26 22:45:01.592 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
-
-03-26 22:45:02.242 6653-6653/com.fatih.travelbook I/Timeline: Timeline: Activity_launch_request id:com.fatih.travelbook time:1218378
-
-03-26 22:45:02.262 6653-6653/com.fatih.travelbook E/ViewRootImpl: sendUserActionEvent() mView == null
-
-03-26 22:45:02.262 6653-6653/com.fatih.travelbook W/ApplicationPackageManager: getCSCPackageItemText()
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.isUninstalledAppPossiblyUpdating
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 730: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0012
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.android.gms.common.wrappers.PackageManagerWrapper.isCallerInstantApp
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 736: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x002e
-
-03-26 22:45:02.302 6653-6653/com.fatih.travelbook I/zzbz: Making Creator dynamically
-
-03-26 22:45:02.312 6653-6653/com.fatih.travelbook I/DynamiteModule: Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:203112999
-
-03-26 22:45:02.312 6653-6653/com.fatih.travelbook I/DynamiteModule: Selected remote version of com.google.android.gms.maps_dynamite, version >= 203112999
-
-03-26 22:45:02.312 6653-6653/com.fatih.travelbook V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
-
-03-26 22:45:02.322 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
-
-03-26 22:45:02.322 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
-
-03-26 22:45:02.322 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x01fe
-
-03-26 22:45:02.322 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
-
-03-26 22:45:02.322 6653-6653/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0034 at 0x203 in Lbd;.e
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method bi.createCredentialProtectedStorageContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 133: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method bi.createDeviceProtectedStorageContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 134: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method ah.getAttributionTag, referenced from method ah.createAttributionContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 78: Lah;.getAttributionTag ()Ljava/lang/String;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0004
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method af.createAttributionContext, referenced from method ah.createAttributionContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 46: Laf;.createAttributionContext (Ljava/lang/String;)Landroid/content/Context;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0031
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method ah.createCredentialProtectedStorageContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 133: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method ah.createDeviceProtectedStorageContext
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 134: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method af.sendBroadcastWithMultiplePermissions, referenced from method ah.sendBroadcastWithMultiplePermissions
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 56: Laf;.sendBroadcastWithMultiplePermissions (Landroid/content/Intent;[Ljava/lang/String;)V
-
-03-26 22:45:02.332 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0005
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0008
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0011
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 52 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0017
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
-
-03-26 22:45:02.342 6653-6653/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0035 at 0x0d in Lbf;.a
-
-03-26 22:45:02.372 6653-6653/com.fatih.travelbook I/Google Maps Android API: Google Play services client version: 12451000
-
-03-26 22:45:02.372 6653-6653/com.fatih.travelbook I/Google Maps Android API: Google Play services package version: 210214003
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method fm.a
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2287: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x01c3
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook I/dalvikvm: Could not find method android.app.Notification$Builder.setCategory, referenced from method fm.a
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2272: Landroid/app/Notification$Builder;.setCategory (Ljava/lang/String;)Landroid/app/Notification$Builder;
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x01d6
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find field Landroid/app/Notification;.audioAttributes
-
-03-26 22:45:02.452 6653-6653/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize instance field ref 0x048c at 0x1e8 in Lfm;.a
-
-03-26 22:45:02.612 6653-6653/com.fatih.travelbook W/ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.fatih.travelbook/cache
-
-03-26 22:45:02.642 6653-6678/com.fatih.travelbook I/dalvikvm: Could not find method android.os.PowerManager.isInteractive, referenced from method mj.a
-
-03-26 22:45:02.642 6653-6678/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2768: Landroid/os/PowerManager;.isInteractive ()Z
-
-03-26 22:45:02.642 6653-6678/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x004d
-
-03-26 22:45:02.652 6653-6653/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction', referenced from method ac.onInitializeAccessibilityNodeInfo
-
-03-26 22:45:02.652 6653-6653/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 564 (Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;) in Lac;
-
-03-26 22:45:02.652 6653-6653/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0185
-
-03-26 22:45:02.732 6653-6653/com.fatih.travelbook I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@421910f0 time:1218862
-
-03-26 22:45:03.102 6653-6699/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 5662K, 36% free 11845K/18384K, paused 24ms, total 24ms
-
-03-26 22:45:03.452 6653-6679/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 1120K, 37% free 11749K/18384K, paused 19ms, total 19ms
-
-03-26 22:45:04.672 6653-6700/com.fatih.travelbook W/DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
-
-03-26 22:45:04.682 6653-6700/com.fatih.travelbook I/DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:6
-
-03-26 22:45:04.682 6653-6700/com.fatih.travelbook I/DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 6
-
-03-26 22:45:09.762 6653-6699/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 929K, 36% free 11843K/18384K, paused 26ms, total 27ms
-
-03-26 22:45:11.562 6653-6699/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 1219K, 37% free 11648K/18384K, paused 21ms, total 21ms
-
+03-27 16:57:02.893 5746-5746/com.fatih.travelbook D/OpenGLRenderer: Enabling debug mode 0
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method androidx.appcompat.widget.TooltipCompat.setTooltipText
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2647: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledHorizontalScrollFactor, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledHorizontalScrollFactor
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2672: Landroid/view/ViewConfiguration;.getScaledHorizontalScrollFactor ()F
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledHoverSlop, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledHoverSlop
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2673: Landroid/view/ViewConfiguration;.getScaledHoverSlop ()I
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.getScaledVerticalScrollFactor, referenced from method androidx.core.view.ViewConfigurationCompat.getScaledVerticalScrollFactor
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2678: Landroid/view/ViewConfiguration;.getScaledVerticalScrollFactor ()F
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.ViewConfiguration.shouldShowMenuShortcutsWhenKeyboardPresent, referenced from method androidx.core.view.ViewConfigurationCompat.shouldShowMenuShortcutsWhenKeyboardPresent
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2682: Landroid/view/ViewConfiguration;.shouldShowMenuShortcutsWhenKeyboardPresent ()Z
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getAlphabeticModifiers, referenced from method androidx.core.view.MenuItemCompat.getAlphabeticModifiers
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2258: Landroid/view/MenuItem;.getAlphabeticModifiers ()I
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getContentDescription, referenced from method androidx.core.view.MenuItemCompat.getContentDescription
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2259: Landroid/view/MenuItem;.getContentDescription ()Ljava/lang/CharSequence;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getIconTintList, referenced from method androidx.core.view.MenuItemCompat.getIconTintList
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2262: Landroid/view/MenuItem;.getIconTintList ()Landroid/content/res/ColorStateList;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getIconTintMode, referenced from method androidx.core.view.MenuItemCompat.getIconTintMode
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2263: Landroid/view/MenuItem;.getIconTintMode ()Landroid/graphics/PorterDuff$Mode;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getNumericModifiers, referenced from method androidx.core.view.MenuItemCompat.getNumericModifiers
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2266: Landroid/view/MenuItem;.getNumericModifiers ()I
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.getTooltipText, referenced from method androidx.core.view.MenuItemCompat.getTooltipText
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2268: Landroid/view/MenuItem;.getTooltipText ()Ljava/lang/CharSequence;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0012
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setAlphabeticShortcut, referenced from method androidx.core.view.MenuItemCompat.setAlphabeticShortcut
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2277: Landroid/view/MenuItem;.setAlphabeticShortcut (CI)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setContentDescription, referenced from method androidx.core.view.MenuItemCompat.setContentDescription
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2280: Landroid/view/MenuItem;.setContentDescription (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setIconTintList, referenced from method androidx.core.view.MenuItemCompat.setIconTintList
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2284: Landroid/view/MenuItem;.setIconTintList (Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setIconTintMode, referenced from method androidx.core.view.MenuItemCompat.setIconTintMode
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2285: Landroid/view/MenuItem;.setIconTintMode (Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setNumericShortcut, referenced from method androidx.core.view.MenuItemCompat.setNumericShortcut
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2287: Landroid/view/MenuItem;.setNumericShortcut (CI)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setShortcut, referenced from method androidx.core.view.MenuItemCompat.setShortcut
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2290: Landroid/view/MenuItem;.setShortcut (CCII)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.MenuItem.setTooltipText, referenced from method androidx.core.view.MenuItemCompat.setTooltipText
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve interface method 2293: Landroid/view/MenuItem;.setTooltipText (Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+03-27 16:57:02.903 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x72 at 0x0011
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.applyTheme, referenced from method androidx.core.graphics.drawable.DrawableCompat.applyTheme
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1288: Landroid/graphics/drawable/Drawable;.applyTheme (Landroid/content/res/Resources$Theme;)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.canApplyTheme, referenced from method androidx.core.graphics.drawable.DrawableCompat.canApplyTheme
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1289: Landroid/graphics/drawable/Drawable;.canApplyTheme ()Z
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.getColorFilter, referenced from method androidx.core.graphics.drawable.DrawableCompat.getColorFilter
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1300: Landroid/graphics/drawable/Drawable;.getColorFilter ()Landroid/graphics/ColorFilter;
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.inflate, referenced from method androidx.core.graphics.drawable.DrawableCompat.inflate
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1318: Landroid/graphics/drawable/Drawable;.inflate (Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setHotspot, referenced from method androidx.core.graphics.drawable.DrawableCompat.setHotspot
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1340: Landroid/graphics/drawable/Drawable;.setHotspot (FF)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setHotspotBounds, referenced from method androidx.core.graphics.drawable.DrawableCompat.setHotspotBounds
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1341: Landroid/graphics/drawable/Drawable;.setHotspotBounds (IIII)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setLayoutDirection, referenced from method androidx.core.graphics.drawable.DrawableCompat.setLayoutDirection
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1342: Landroid/graphics/drawable/Drawable;.setLayoutDirection (I)Z
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTint, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTint
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1345: Landroid/graphics/drawable/Drawable;.setTint (I)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTintList, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTintList
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1346: Landroid/graphics/drawable/Drawable;.setTintList (Landroid/content/res/ColorStateList;)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.graphics.drawable.Drawable.setTintMode, referenced from method androidx.core.graphics.drawable.DrawableCompat.setTintMode
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 1347: Landroid/graphics/drawable/Drawable;.setTintMode (Landroid/graphics/PorterDuff$Mode;)V
+03-27 16:57:02.913 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:02.943 5746-5746/com.fatih.travelbook I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42119bc8 time:287976
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook W/dalvikvm: method Landroidx/appcompat/widget/DropDownListView;.lookForSelectablePosition incorrectly overrides package-private method with same name in Landroid/widget/ListView;
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setEnterTransition, referenced from method androidx.appcompat.widget.MenuPopupWindow.setEnterTransition
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3824: Landroid/widget/PopupWindow;.setEnterTransition (Landroid/transition/Transition;)V
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000b
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setExitTransition, referenced from method androidx.appcompat.widget.MenuPopupWindow.setExitTransition
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3826: Landroid/widget/PopupWindow;.setExitTransition (Landroid/transition/Transition;)V
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x000b
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setIsClippedToScreen, referenced from method androidx.appcompat.widget.ListPopupWindow.setPopupClipToScreenEnabled
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3830: Landroid/widget/PopupWindow;.setIsClippedToScreen (Z)V
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0025
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setEpicenterBounds, referenced from method androidx.appcompat.widget.ListPopupWindow.show
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3825: Landroid/widget/PopupWindow;.setEpicenterBounds (Landroid/graphics/Rect;)V
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0107
+03-27 16:57:03.593 5746-5746/com.fatih.travelbook I/ListPopupWindow: Could not find method setEpicenterBounds(Rect) on PopupWindow. Oh well.
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method androidx.appcompat.widget.DropDownListView.drawableHotspotChanged, referenced from method androidx.appcompat.widget.DropDownListView.setPressedItem
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 7806: Landroidx/appcompat/widget/DropDownListView;.drawableHotspotChanged (FF)V
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0009
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.view.View.drawableHotspotChanged, referenced from method androidx.appcompat.widget.DropDownListView.setPressedItem
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2402: Landroid/view/View;.drawableHotspotChanged (FF)V
+03-27 16:57:03.613 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0048
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.getOverlapAnchor, referenced from method androidx.core.widget.PopupWindowCompat.getOverlapAnchor
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3815: Landroid/widget/PopupWindow;.getOverlapAnchor ()Z
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.widget.PopupWindow.setOverlapAnchor, referenced from method androidx.core.widget.PopupWindowCompat.setOverlapAnchor
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 3833: Landroid/widget/PopupWindow;.setOverlapAnchor (Z)V
+03-27 16:57:03.623 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+03-27 16:57:04.273 5746-5746/com.fatih.travelbook I/Timeline: Timeline: Activity_launch_request id:com.fatih.travelbook time:289303
+03-27 16:57:04.283 5746-5746/com.fatih.travelbook E/ViewRootImpl: sendUserActionEvent() mView == null
+03-27 16:57:04.283 5746-5746/com.fatih.travelbook W/ApplicationPackageManager: getCSCPackageItemText()
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.pm.PackageManager.getPackageInstaller, referenced from method com.google.android.gms.common.GooglePlayServicesUtilLight.isUninstalledAppPossiblyUpdating
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 730: Landroid/content/pm/PackageManager;.getPackageInstaller ()Landroid/content/pm/PackageInstaller;
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0012
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.pm.PackageManager.isInstantApp, referenced from method com.google.android.gms.common.wrappers.PackageManagerWrapper.isCallerInstantApp
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 736: Landroid/content/pm/PackageManager;.isInstantApp (Ljava/lang/String;)Z
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x002e
+03-27 16:57:04.333 5746-5746/com.fatih.travelbook I/zzbz: Making Creator dynamically
+03-27 16:57:04.343 5746-5746/com.fatih.travelbook I/DynamiteModule: Considering local module com.google.android.gms.maps_dynamite:0 and remote module com.google.android.gms.maps_dynamite:203112999
+03-27 16:57:04.343 5746-5746/com.fatih.travelbook I/DynamiteModule: Selected remote version of com.google.android.gms.maps_dynamite, version >= 203112999
+03-27 16:57:04.343 5746-5746/com.fatih.travelbook V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+03-27 16:57:04.353 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+03-27 16:57:04.353 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+03-27 16:57:04.353 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x01fe
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0034 at 0x203 in Lbd;.e
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method bi.createCredentialProtectedStorageContext
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 133: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method bi.createDeviceProtectedStorageContext
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 134: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+03-27 16:57:04.363 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method ah.getAttributionTag, referenced from method ah.createAttributionContext
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 78: Lah;.getAttributionTag ()Ljava/lang/String;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x0004
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method af.createAttributionContext, referenced from method ah.createAttributionContext
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 46: Laf;.createAttributionContext (Ljava/lang/String;)Landroid/content/Context;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0031
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createCredentialProtectedStorageContext, referenced from method ah.createCredentialProtectedStorageContext
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 133: Landroid/content/ContextWrapper;.createCredentialProtectedStorageContext ()Landroid/content/Context;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.content.ContextWrapper.createDeviceProtectedStorageContext, referenced from method ah.createDeviceProtectedStorageContext
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 134: Landroid/content/ContextWrapper;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method af.sendBroadcastWithMultiplePermissions, referenced from method ah.sendBroadcastWithMultiplePermissions
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 56: Laf;.sendBroadcastWithMultiplePermissions (Landroid/content/Intent;[Ljava/lang/String;)V
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6f at 0x0005
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0008
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 53 (SUPPORTED_64_BIT_ABIS) in Landroid/os/Build;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0011
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_32_BIT_ABIS
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve static field 52 (SUPPORTED_32_BIT_ABIS) in Landroid/os/Build;
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x62 at 0x0017
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find static field Landroid/os/Build;.SUPPORTED_64_BIT_ABIS
+03-27 16:57:04.373 5746-5746/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize static field ref 0x0035 at 0x0d in Lbf;.a
+03-27 16:57:04.403 5746-5746/com.fatih.travelbook I/Google Maps Android API: Google Play services client version: 12451000
+03-27 16:57:04.403 5746-5746/com.fatih.travelbook I/Google Maps Android API: Google Play services package version: 210214003
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.app.Notification$Builder.setLocalOnly, referenced from method fm.a
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2287: Landroid/app/Notification$Builder;.setLocalOnly (Z)Landroid/app/Notification$Builder;
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x01c3
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook I/dalvikvm: Could not find method android.app.Notification$Builder.setCategory, referenced from method fm.a
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2272: Landroid/app/Notification$Builder;.setCategory (Ljava/lang/String;)Landroid/app/Notification$Builder;
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x01d6
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook D/dalvikvm: DexOpt: couldn't find field Landroid/app/Notification;.audioAttributes
+03-27 16:57:04.483 5746-5746/com.fatih.travelbook I/dalvikvm: DexOpt: unable to optimize instance field ref 0x048c at 0x1e8 in Lfm;.a
+03-27 16:57:04.623 5746-5746/com.fatih.travelbook W/ContextImpl: Failed to ensure directory: /storage/extSdCard/Android/data/com.fatih.travelbook/cache
+03-27 16:57:04.653 5746-5746/com.fatih.travelbook E/dalvikvm: Could not find class 'android.view.accessibility.AccessibilityNodeInfo$AccessibilityAction', referenced from method ac.onInitializeAccessibilityNodeInfo
+03-27 16:57:04.653 5746-5746/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve check-cast 564 (Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;) in Lac;
+03-27 16:57:04.653 5746-5746/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x1f at 0x0185
+03-27 16:57:04.673 5746-5771/com.fatih.travelbook I/dalvikvm: Could not find method android.os.PowerManager.isInteractive, referenced from method mj.a
+03-27 16:57:04.673 5746-5771/com.fatih.travelbook W/dalvikvm: VFY: unable to resolve virtual method 2768: Landroid/os/PowerManager;.isInteractive ()Z
+03-27 16:57:04.673 5746-5771/com.fatih.travelbook D/dalvikvm: VFY: replacing opcode 0x6e at 0x004d
+03-27 16:57:04.753 5746-5746/com.fatih.travelbook I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42232368 time:289779
+03-27 16:57:05.123 5746-5792/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 5499K, 35% free 11981K/18392K, paused 24ms, total 24ms
+03-27 16:57:05.483 5746-5802/com.fatih.travelbook D/dalvikvm: GC_FOR_ALLOC freed 1115K, 36% free 11887K/18392K, paused 20ms, total 20ms
+03-27 16:57:06.673 5746-5794/com.fatih.travelbook W/DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+03-27 16:57:06.683 5746-5794/com.fatih.travelbook I/DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:6
+03-27 16:57:06.683 5746-5794/com.fatih.travelbook I/DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 6
+03-27 16:57:07.003 5746-5746/com.fatih.travelbook I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@42119bc8 time:292033
